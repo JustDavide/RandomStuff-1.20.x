@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "randomstuff",
+	"version": "${version}",
+	"name": "RandomStuff",
+	"description": "Random Stuff To Add Some Spice To Minecraft",
+	"authors": [
+		"Dovide"
+	],
+	"contact": {
+		"sources": "https://github.com/JustDavide"
+	},
+	"license": "MIT",
+	"icon": "assets/randomstuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "me.dovide.stuff.RandomStuff"
+		],
+		"client": [
+			"me.dovide.stuff.RandomStuffClient"
+		],
+		"fabric-datagen": [
+			"me.dovide.stuff.RandomStuffDataGenerator"
+		]
+	},
+	"mixins": [
+		"randomstuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
