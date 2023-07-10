@@ -1,5 +1,8 @@
 package me.dovide.stuff;
 
+import me.dovide.stuff.items.ModBlocks;
+import me.dovide.stuff.items.ModItemGroups;
+import me.dovide.stuff.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class RandomStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerAll();
+		ModItemGroups.registerItemGroups();
 	}
 }
