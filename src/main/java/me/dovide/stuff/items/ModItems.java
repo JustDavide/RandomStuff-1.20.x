@@ -1,7 +1,7 @@
 package me.dovide.stuff.items;
 
 import me.dovide.stuff.RandomStuff;
-import me.dovide.stuff.customtools.CustomSword;
+import me.dovide.stuff.customtools.*;
 import me.dovide.stuff.materials.RubyToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -14,11 +14,16 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    // Ruby Items
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
-    public static final Item RUBY_SWORD = registerItem("ruby_sword", new CustomSword(RubyToolMaterial.INSTANCE, 8, 0.5f, new Item.Settings()));
-
+    // All the ruby tools
+    public static final Item RUBY_SWORD = registerItem("ruby_sword", new CustomSword(RubyToolMaterial.INSTANCE, 7, 1.2f, new Item.Settings()));
+    public static final Item RUBY_PICK = registerItem("ruby_pickaxe", new CustomPick(RubyToolMaterial.INSTANCE, 2, 1.2f, new Item.Settings()));
+    public static final Item RUBY_AXE = registerItem("ruby_axe", new CustomAxe(RubyToolMaterial.INSTANCE, 9, 2.2f, new Item.Settings()));
+    public static final Item RUBY_HOE = registerItem("ruby_hoe", new CustomHoe(RubyToolMaterial.INSTANCE, 1, 1f, new Item.Settings()));
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel", new CustomShovel(RubyToolMaterial.INSTANCE, 1, 1.4f, new Item.Settings()));
 
     private static void addItemToIngredients(FabricItemGroupEntries entries){
         entries.add(RUBY);

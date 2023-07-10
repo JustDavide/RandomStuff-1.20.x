@@ -21,6 +21,11 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK_ITEM);
                         entries.add(ModBlocks.RUBY_ORE_ITEM);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_PICK);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_HOE);
                     }).build());
 
 

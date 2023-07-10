@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "randomstuff:ruby"
+              "name": "randomstuff:raw_ruby"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "randomstuff:ruby"
+              "name": "randomstuff:raw_ruby"
             }
           ]
         }

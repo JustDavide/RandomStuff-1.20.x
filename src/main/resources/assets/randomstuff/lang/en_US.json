@@ -1,8 +1,15 @@
 {
   "item.randomstuff.ruby": "Ruby",
   "item.randomstuff.raw_ruby": "Raw Ruby",
+
   "item.randomstuff.ruby_sword": "Ruby Sword",
+  "item.randomstuff.ruby_pickaxe": "Ruby Pickaxe",
+  "item.randomstuff.ruby_shovel": "Ruby Shovel",
+  "item.randomstuff.ruby_axe": "Ruby Axe",
+  "item.randomstuff.ruby_hoe": "Ruby Hoe",
+
   "block.randomstuff.ruby_block": "Ruby Block",
   "block.randomstuff.ruby_ore": "Ruby Ore",
+
   "itemgroup.ruby": "Ruby Set"
 }
